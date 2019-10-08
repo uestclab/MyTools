@@ -1,8 +1,6 @@
 #ifndef __BUDDY2_H__
 #define __BUDDY2_H__
 
-#include <stdlib.h>
-
 struct buddy2;
 struct buddy2* buddy2_new( int size );
 void buddy2_destroy( struct buddy2* self );
