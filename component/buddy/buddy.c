@@ -1,3 +1,7 @@
+/*
+	完全二叉树叶节点的个数对应总的连续管理内存，一个叶节点对应管理内存的一个字节
+*/
+
 #include "buddy.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -9,8 +13,6 @@
 #define NODE_USED 1	
 #define NODE_SPLIT 2
 #define NODE_FULL 3
-
-int g_value = 0;
 
 struct buddy {
 	int level;
